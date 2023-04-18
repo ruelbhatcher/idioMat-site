@@ -5,17 +5,18 @@
   font-family: Gill Sans, Open Sans, Noto Sans, Roboto Mono, Courier; 
   font-size: 2.25rem;
   text-align: center;
-  background-color: #CBF5F4;
+  color:#F8F401;
+  background-color: #031044;
 }
 
 h1, h2, h3, h4, h5, h6, body {
   font-family: 'Inconsolata', monospace;
+  font-weight: 200;
   font-family: Gill Sans, Open Sans, Noto Sans, Roboto Mono, Courier; 
 }
 
 p {
   font-family: inherit;
-  font-size: 1.3rem;
   font-weight:200;
 }
 
@@ -40,9 +41,10 @@ p {
 }
 .blog-post-title {
   font-size: 1.5rem;
+  color:#001A83;
 }
 .blog-post-content {
-  font-size: 1.3 rem;
+  font-size: 1.3rem;
   font-weight: 200;
 }
 .blog-post-meta {
@@ -50,16 +52,38 @@ p {
   color: #727272;
 }
 
+.blockquote {
+  font-size: 0.8rem;
+  color: #D01901;
+}
+
+.about-title {
+  font-size: 0.6rem:
+}
+.about-content {
+  font-size: 0.6rem;
+}
+
+.legend {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* carp image */
+.fish-img {
+  background-color: #6C7CF3;
+}
+
 /*
  * Footer
  */
 .blog-footer {
   padding: 2.0rem 0;
-  color: #727272;
+  color: #EED601;
   text-align: center;
-  background-color: #CBF5F4;
+  background-color: #BDDA01;
   border-top: .05rem solid #e5e5e5;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
