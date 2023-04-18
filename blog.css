@@ -20,10 +20,6 @@ p {
   font-weight:200;
 }
 
-/* .p-4 { */
-/*   font-size: 0.8rem; */
-/* } */
-
 .flex-auto {
   flex: 0 0 auto;
 }
@@ -55,18 +51,17 @@ p {
 .blockquote {
   font-size: 0.8rem;
   color: #D01901;
+  text-align: center;
 }
 
-.about-title {
-  font-size: 0.6rem:
-}
-.about-content {
-  font-size: 0.6rem;
-}
-
+/* explain yourself */
 .legend {
   font-size: 1rem;
   text-align: center;
+}
+
+.link-list {
+  font-size: 1rem;
 }
 
 /* carp image */
