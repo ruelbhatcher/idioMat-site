@@ -1,17 +1,11 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-.blog-header {
-  border-bottom: 1px solid #e5e5e5;
-}
-
 .blog-header-logo {
   font-family: 'Inconsolata', monospace;
   font-family: Gill Sans, Open Sans, Noto Sans, Roboto Mono, Courier; 
   font-size: 2.25rem;
-}
-
-.blog-header-logo:hover {
-  text-decoration: none;
+  text-align: center;
+  background-color: #CBF5F4;
 }
 
 h1, h2, h3, h4, h5, h6, body {
@@ -19,22 +13,18 @@ h1, h2, h3, h4, h5, h6, body {
   font-family: Gill Sans, Open Sans, Noto Sans, Roboto Mono, Courier; 
 }
 
-.display-4 {
-  font-size: 2.5rem;
+p {
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight:200;
 }
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
+
+/* .p-4 { */
+/*   font-size: 0.8rem; */
+/* } */
 
 .flex-auto {
   flex: 0 0 auto;
-}
-
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
 }
 
 /* Pagination */
@@ -51,6 +41,10 @@ h1, h2, h3, h4, h5, h6, body {
 .blog-post-title {
   font-size: 1.5rem;
 }
+.blog-post-content {
+  font-size: 1.3 rem;
+  font-weight: 200;
+}
 .blog-post-meta {
   margin-bottom: 1.0rem;
   color: #727272;
@@ -63,8 +57,9 @@ h1, h2, h3, h4, h5, h6, body {
   padding: 2.0rem 0;
   color: #727272;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #CBF5F4;
   border-top: .05rem solid #e5e5e5;
+  font-size: 1.3rem;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
